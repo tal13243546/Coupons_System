@@ -8,8 +8,6 @@ import com.app.utils.ConnectionPool;
 
 public class DBManager {
 
-//	private static ConnectionPool connectionPool = ConnectionPool.getInstance();
-
 	private static final String URL = "jdbc:mysql://localhost:3306/jb project?createDatabaseIfNotExist=TRUE&useTimezone=TRUE&serverTimezone=Asia/Jerusalem";
 	private static final String USER = "root";
 	private static final String PASS = "132435";

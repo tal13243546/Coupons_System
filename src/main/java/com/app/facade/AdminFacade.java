@@ -26,9 +26,8 @@ public class AdminFacade extends ClientFacade {
 	public boolean login(String email, String password) throws LoginException {
 		if (email.equals("admin@admin.com") && password.equals("admin")) {
 			return true;
-		} else {
-			throw new LoginException("Login Details Were Wrong, Please Try Again.");
 		}
+			throw new LoginException("Login Details Were Wrong, Please Try Again.");
 	}
 
 	public void addCompany(Company company) throws AddCompanyException {
